@@ -171,25 +171,6 @@ Caso contrário, crie-os manualmente (arquivos vazios).
 
 ---
 
-# 🚀 Como Publicar Este Manual no GitHub
-
-### Passo a passo:
-1. Crie uma conta (se ainda não tiver) em [https://github.com](https://github.com).  
-2. Crie um **novo repositório**:
-   - Nome: `Sistema-Academico`
-   - Descrição: “Sistema acadêmico em C com gerenciamento de alunos e turmas”
-   - Marque “Add a README file” (opcional)
-3. No seu computador, crie uma pasta e adicione:
-   - `Sistema-C.txt`
-   - `README.md` (este arquivo)
-4. No terminal, digite:
-```bash
-git init
-git add .
-git commit -m "Adiciona sistema e manual do usuário"
-git branch -M main
-git remote add origin https://github.com/seuusuario/Sistema-Academico.git
-git push -u origin main
 ```
 5. Pronto 🎉  
    O manual aparecerá automaticamente na página inicial do repositório (README).
